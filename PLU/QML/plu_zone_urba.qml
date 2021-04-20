@@ -7,14 +7,14 @@
  </flags>
  <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="RuleRenderer">
   <rules key="{281d44af-bb1e-4a8a-912a-188f65a8aad1}">
-   <rule key="{8e0d6d70-627e-452f-9aa4-ac8220144c7b}" scalemindenom="2500" label="petite échelle (&lt;1/2500)">
+   <rule key="{8e0d6d70-627e-452f-9aa4-ac8220144c7b}" scalemindenom="2500" label="grande échelle (&lt;1/2500)">
     <rule key="{a3568b14-89b8-4085-a3a8-2858fdbc5ec1}" filter="typezone = 'U'" label="U - zone urbaine" symbol="0"/>
     <rule key="{a2c0b57c-4dd6-4d8b-82f5-caeb1b676ebb}" filter="typezone = 'AUc'" label="AUc - zone à urbaniser" symbol="1"/>
     <rule key="{bfb4765e-3734-40ee-898f-d63a29a62eee}" filter="typezone = 'AUs'" label="AUs - zone à urbaniser bloquée" symbol="2"/>
     <rule key="{b524d8e7-00aa-4a20-bb8b-b3d5cc41124f}" filter="typezone = 'A'" label="A - zone agricole" symbol="3"/>
     <rule key="{ea4d03b5-94a5-4f0e-8e7b-30533d81bd5c}" filter="typezone = 'N'" label="N - zone naturelle et forestière" symbol="4"/>
    </rule>
-   <rule key="{a95872f0-808f-4359-8472-245ace31d541}" scalemaxdenom="2500" label="grande échelle (>=1/2500)">
+   <rule key="{a95872f0-808f-4359-8472-245ace31d541}" scalemaxdenom="2500" label="petite échelle (>=1/2500)">
     <rule key="{a6995e5c-483e-436e-b7ba-0e95be8bcbbd}" filter="typezone = 'U'" label="U - zone urbaine" symbol="5"/>
     <rule key="{2906bfac-5bf0-4415-b98b-8057ce373265}" filter="typezone = 'AUc'" label="AUc - zone à urbaniser" symbol="6"/>
     <rule key="{044a9493-45be-4284-91d9-f3608550b2c0}" filter="typezone = 'AUs'" label="AUs - zone à urbaniser bloquée" symbol="7"/>
